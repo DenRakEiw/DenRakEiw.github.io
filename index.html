@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Landing Page</title>
+    <title>Dennis Schöneberg | AI Production Engineer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,16 +12,41 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
-            text-align: center;
         }
         header {
             background-color: #4CAF50;
             color: white;
             padding: 20px;
-            font-size: 2em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
         }
         section {
-            margin: 20px;
+            margin: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, p {
+            margin-bottom: 20px;
         }
         .cta-button {
             background-color: #4CAF50;
@@ -30,7 +55,6 @@
             border: none;
             cursor: pointer;
             font-size: 1.2em;
-            margin-top: 20px;
             text-decoration: none;
             display: inline-block;
         }
@@ -42,13 +66,45 @@
 <body>
 
     <header>
-        Welcome to Your New Landing Page!
+        <h1>Dennis Schöneberg | AI Production Engineer</h1>
+        <p>Specializing in AI-Driven Production & Innovation</p>
     </header>
 
-    <section>
-        <p>We are so glad you're here. This page is designed to capture your interest.</p>
-        <a href="https://your-link.com" class="cta-button">Call to Action</a>
+    <nav>
+        <a href="#intro">Intro</a>
+        <a href="#about">About</a>
+        <a href="#art">Art</a>
+        <a href="#publications">Publications</a>
+    </nav>
+
+    <section id="intro">
+        <h2>Welcome!</h2>
+        <p>I'm Dennis Schöneberg, an AI Production Engineer currently working part-time at Grabarz & Partner and freelancing as a Stable Diffusion Engineer. I specialize in integrating AI-driven processes into creative production environments.</p>
     </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>At Grabarz & Partner, I combine my passion for AI and creativity to lead innovations in the field of production engineering. As a freelancer, I work with global brands and agencies to implement custom AI workflows, covering areas such as automation, model training, and deepfakes.</p>
+    </section>
+
+    <section id="art">
+        <h2>Art & Technology</h2>
+        <p>My work fuses cutting-edge AI technologies with creative processes, enabling new forms of digital art and expression. Using tools like Stable Diffusion, ComfyUI, and Dreambooth, I bring innovative ideas to life for clients like BMW, Hyundai, and many more.</p>
+    </section>
+
+    <section id="publications">
+        <h2>Publications & Projects</h2>
+        <p>Projects I've worked on include:</p>
+        <ul>
+            <li><strong>Hyundai - Santa Fe Launch</strong>: Open for More</li>
+            <li><strong>E.On - Ugly Sweater Generator</strong></li>
+        </ul>
+        <p>Clients: Grabarz & Partner, Jung von Matt, RayonFx, Ossa.ai, and more.</p>
+    </section>
+
+    <footer>
+        <p>Connect with me for AI-driven innovation and production solutions.</p>
+    </footer>
 
 </body>
 </html>
